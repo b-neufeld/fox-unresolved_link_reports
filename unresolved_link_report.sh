@@ -13,6 +13,7 @@
 cp /opt/fox/bin/tools/BlockTypeMap.txt .
 
 # Run /opt/fox/bin/tools/dbvu270 for all CPs
+# Replace LTRBG1,2,3 with your FCP270 letterbugs. Add as many lines as you need!
 
 /opt/fox/bin/tools/dbvu270 -uredlb -I /usr/fox/sp/files/OS1C70 -O MapOffsets.txt -D /usr/fox/sp/files/DBLTRBG1.UC -f > /opt/customer/unresolved_link_reports/LTRBG1_unresolved_link_report.txt
 /opt/fox/bin/tools/dbvu270 -uredlb -I /usr/fox/sp/files/OS1C70 -O MapOffsets.txt -D /usr/fox/sp/files/DBLTRBG2.UC -f > /opt/customer/unresolved_link_reports/LTRBG2_unresolved_link_report.txt
